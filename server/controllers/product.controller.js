@@ -12,7 +12,7 @@ module.exports={
         .catch((err)=>res.json(err));
     },
     updateOne:(req, res)=>{
-        ProductModel.findByIdAndUpdate(req.params.id, res.body, {new:true})
+        ProductModel.findByIdAndUpdate(req.params.id, req.body, {new:true})
         .then((data)=>res.json({product:data}))
         .catch((err)=>res.json(err));
     },
