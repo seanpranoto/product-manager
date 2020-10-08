@@ -1,3 +1,6 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/seanpranoto/product-manager-client.git
+[submodule "product-manager-client"]
+	path = product-manager-client
+	url = https://github.com/seanpranoto/product-manager-client.git
